@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(199, 154, 230);
+}
+
+#menu{
+    width:650px;
+    height:650px;
+    margin: auto;
+    border:12px solid aliceblue;
+    margin-top: 100px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    border-image:linear-gradient(to right, #f5f5f5,#d12fa1 ,#ff00c8 ) 30; 
+}
+
+#title{
+    text-align:center;
+    padding-top: 80px;
+    color: rgb(180, 19, 19);
+    font-size: 2.0rem;
+    font-family: 'Arial';
+    letter-spacing: 2px;
+}
+
+.applications{
+    text-align: center;
+    word-spacing: 10px;
+    margin:auto;
+    margin-top:15px;
+}
+
+
+
+#facebook{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(66,103,178);
+    font-family: 'Arial';
+    font-size: 1.2rem;
+    color: white;
+    border:none;
+    border-radius: 10px;
+}
+
+#google{
+    width: 180px;
+    height: 60px;
+    background-color:rgb(238, 105, 105);
+    font-family: 'Arial';
+    font-size: 1.2rem;
+    color: darkslategrey;
+    border: 1px solid rgb(211, 16, 16);
+    border-radius: 10px;
+}
+
+.input-box {
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Arial';
+    font-size: 1.0rem;
+    color: darkslategrey;
+}
+
+a{
+    color:grey;
+    font-size: 0.8rem;
+}
+
+#username,#password
+{
+    width: 410px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(175, 5, 5);
+    border-radius: 10px;
+    background-color: rgb(250, 253, 253);
+}
+
+#button{
+    width: 410px;
+    height: 50px;
+    background-color: darkslategrey;
+    font-family: 'Arial';
+    font-size: 1.0rem;
+    color: white;
+    border:none;
+    border-radius: 10px;
+}
+
+.submit{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Arial';
+    font-size: 0.8rem;
+    color: grey;
+}
